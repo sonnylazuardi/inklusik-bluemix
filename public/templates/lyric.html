@@ -1,0 +1,41 @@
+<ion-view title="{{partitur.title.toUpperCase()}}">
+  <ion-content>
+    <div class = "detail-card-head">
+      <div class="item item-image" style="background: url('img/{{partitur.img}}'); background-size: cover; background-position: center center; ">
+        </div>
+      </div>
+      <div class="item item-head">
+        <div class="row">
+          <div class="col">
+            <h2><strong>{{partitur.title.toUpperCase()}}</strong></h2>
+            <p> Alat Musik {{partitur.source | capitalize}} </p>
+          </div>
+          <div> 
+            <a href="#/choose/{{partitur.id}}" ng-show-auth> <button style="padding:0px;" class="button button-energized;">
+              <strong>PLAY</strong>
+            </button></a>
+            <a href="#/choose/{{partitur.id}}" ng-hide-auth> <button style="padding:0px;" class="button button-energized;">
+              <strong>PLAY</strong>
+            </button></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+          <div class="detail-card-item">
+            <div class="item item-text-wrap">
+              <h3 style="text-align:left"><strong>Lyric</strong></h3>
+              <div>
+                <div ng-bind-html="partitur.lyric"></div>
+              </div>
+            <hr>
+            <p style="text-align: center; padding:0px"><a class="link" href ng-click="expand(0)">More</a></p>
+            </div>
+
+          </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

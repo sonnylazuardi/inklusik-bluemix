@@ -1,0 +1,16 @@
+<ion-view title="PLAY {{instrument.name.toUpperCase()}}">
+    <ion-content>
+
+    <div ng-repeat="stream in streams" class="list custom-list">
+      <a class="item item-avatar" href="#/stream/{{stream.$id}}">
+            <img ng-src="{{stream.avatar}}">
+          <h2>{{stream.title}}</h2>
+          <p>{{stream.name}} </p>
+          <div class="icon-music">
+            <i class="icon ion-ios7-heart"></i> {{stream.like}}
+          </div>
+      </a>
+    </div>
+
+    </ion-content>
+</ion-view>

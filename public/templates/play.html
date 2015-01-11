@@ -1,0 +1,101 @@
+<ion-view title="PLAY {{instrument.name.toUpperCase()}}">
+  <ion-content>
+    <div style="box-shadow: 0px 5px 10px rgba(0,0,0,.1);">
+      <div class="item item-image" style="background: url('img/{{instrument.imagecover}}'); background-size: cover; background-position: center center; height: 200px">
+        <div class="icon-music" style="background: url('img/{{instrument.image}}'); background-size: contain; background-repeat: no-repeat; background-position: center center; height: 140px; width: 140px; background-color: #fff; border-radius:50%; box-shadow: 0px 5px 10px rgba(0,0,0,.4); margin: 30px auto;">
+        </div>
+      </div>
+      <div class="item">
+        <div style="text-align:center"> Tap to Play </div>
+        <div class="row">
+          <div class="col" ng-repeat="melody in instrument.melody">
+            <a href ng-mousedown="sound(melody)" ng-mouseenter="enter(melody)" ng-mouseup="stop()" ng-mouseleave="leave()" on-long-press="sound(melody)" on-touch-end="stop()"> <button ng-class="{'button': true, 'button-fab-yellow': true, 'selected': (selected == melody)}">
+              <strong>{{notes(melody)}}</strong>
+            </button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="list">
+      <div class="item item-toggle">
+        Switch Note
+        <label class="toggle toggle-assertive">
+          <input type="checkbox" ng-model="settings.notes">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <div class="partitur" ng-show="usingPartitur"> 
+      
+      <div class="list">
+        <label class="item item-input item-select">
+          <div class="input-label">
+            {{settings.currentSong.title}}
+          </div>
+          <select ng-model="settings.currentSong" ng-options="part.title for part in partiturs" ng-change="changeSong()">
+            <option value="">-- Choose Song --</option>
+          </select>
+        </label>
+        <div class="item">
+          <div class="row">
+            <div class="col col-40">
+              {{settings.currentSong.source}}  
+            </div>
+            <div class="col col-20">
+              {{settings.currentSong.tick}}  
+            </div>
+            <div class="col col-20">
+              <a href class="button" ng-click="control()">
+                <i class="fa fa-play" ng-show="!isPlaying"></i>
+                <i class="fa fa-pause" ng-show="isPlaying"></i>
+              </a>
+            </div>
+            <div class="col col-20">
+              <a href class="button" ng-click="record()" ng-show-auth>
+                <i class="fa fa-circle" ng-show="!isRecording"></i>
+                <i style="color:#ED2626" class="fa fa-circle" ng-show="isRecording"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item range range-positive">
+          <i class="icon ion-ios7-alarm-outline"></i>
+          <input type="range" ng-model="settings.tempoVal" min="0" max="100" ng-change="tempoChange()">
+          <i class="icon ion-ios7-alarm"></i>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="board">
+            <div class="wrap" style="width: {{(settings.currentSong.melody.length + 20) * 45}}px; left: -{{time*(45+20)*0.2}}px">
+              <div ng-repeat="melo in settings.currentSong.melody track by $index">
+                <div class="melo" style="left: {{($index*(45+20))+10*(45+20)}}px" ng-hide="melo == '0'">
+                  {{notes(melo)}}
+                </div>
+              </div>
+            </div>        
+          <div class="tick"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <a href class="button" style="width: 100%" ng-click="switch()">Song</a>
+    </div>
+    <div class="row">
+      <h5 style="margin:5px"></h5>
+    </div>
+    <div ng-repeat="user in onlineusers"  class="list custom-list">
+      <div style="border-bottom-width:1px;" ng-class="{'item': true, 'item-avatar': true, 
+      'sounded': user.sounded}">
+          <img ng-src="{{user.avatar}}">
+          <h2>{{user.name}}</h2>
+          <p>{{user.instrument.name}} </p>
+          <div class="icon-music" style="background: url('img/{{user.instrument.image}}'); background-size: contain; background-repeat: no-repeat; background-position: center center; height: 40px; width: 40px; background-color: #fff; border-radius:50%; box-shadow: 0px 5px 10px rgba(0,0,0,.4); position: absolute; right: 15px; top: 15px">
+          </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

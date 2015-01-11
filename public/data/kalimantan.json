@@ -1,0 +1,12 @@
+{
+  "instruments" : [ {
+    "description" : "Alat musik tradisional yang berasal dari suku Dayak Kalimantan Tengah yaitu Gendang Dayak atau disebut juga Gendang Tunggal. Mempunyai ukuran agak besar dan panjang kira-kira satu atau dua meter dengan garis tengah mencapai 40 centimeter. Gendang Dayak atau dengan istilah lain juga Gandang Tatau terbuat dari kulit sapi, rusa atau ular sawah/piton (panganen). Pada bagian pangkal terbuka sebagai penguat suara ketika ditabuh.",
+    "howtoplay" : "Alat musik ini dimainkan dengan cara ditabuh",
+    "image" : "gendang.jpg",
+    "location" : "kamlimantan",
+    "melody" : [ "da", "mi", "na", "ti", "la", "da2" ],
+    "name" : "gendang",
+    "story" : ""
+  }
+]
+}

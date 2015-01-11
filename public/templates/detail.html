@@ -1,0 +1,70 @@
+<ion-view title="{{instrument.name.toUpperCase()}}">
+  <ion-content>
+    <div class = "detail-card-head">
+      <div class="item item-image" style="background: url('img/{{instrument.imagecover}}'); background-size: cover; background-position: center center; ">
+        <div class="icon-music" style="background: url('img/{{instrument.image}}'); background-size: contain; background-repeat: no-repeat; background-position: center center;  background-color: #fff; ">
+        </div>
+      </div>
+      <div class="item item-head">
+        <div class="row">
+          <div class="col">
+            <h2><strong>{{instrument.name.toUpperCase()}}</strong></h2>
+            <p> Alat Musik {{instrument.location | capitalize}} </p>
+          </div>
+          <div>
+            <a href="#/play/{{instrument.name}}" ng-show-auth> <button class="button button-energized;">
+              <strong>PLAY</strong>
+            </button></a>
+            <a href="#/guestplay/{{instrument.name}}" ng-hide-auth> <button class="button button-energized;">
+              <strong>PLAY</strong>
+            </button></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+          <div class="detail-card-item">
+            <div class="item item-text-wrap">
+              <h3 style="text-align:left"><strong>Description</strong></h3>
+              <div ng-class="[expanded[0], 'accord']">
+                <div ng-bind-html="instrument.description"></div>
+              </div>
+            <p style="font-size:20px; text-align: center; padding:0px;margin-top:10px;"><a class="link-more" href ng-click="expand(0)"><i class="icon ion-ios7-arrow-down"></i></a></p>
+            </div>
+
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+          <div class="detail-card-item">
+            <div class="item item-text-wrap">
+              <h3 style="text-align:left"><strong>Story</strong></h3>
+              <div ng-class="[expanded[1], 'accord']">
+                <div ng-bind-html='instrument.story'></div>
+              </div>
+            <p style="font-size:20px; text-align: center; padding:0px;margin-top:10px;"><a class="link-more" href ng-click="expand(1)"><i class="icon ion-ios7-arrow-down"></i></a></p>
+            </div>
+
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+          <div class="detail-card-item">
+            <div class="item item-text-wrap">
+              <h3 style="text-align:left"><strong>How to play</strong></h3>
+              <div ng-class="[expanded[2], 'accord']">
+                <div ng-bind-html='instrument.howtoplay'></div>
+              </div>
+            <p style="font-size:20px; text-align: center; padding:0px;margin-top:10px;"><a class="link-more" href ng-click="expand(2)"><i class="icon ion-ios7-arrow-down"></i></a></p>
+            </div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

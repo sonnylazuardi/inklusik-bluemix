@@ -1,0 +1,11 @@
+{
+  "instruments" : [ {
+    "description" : "Sasando adalah sebuah alat instrumen petik musik. Instumen musik ini berasal dari pulau Rote, Nusa Tenggara Timur. Secara harfiah nama Sasando menurut asal katanya dalam bahasa Rote, sasandu, yang artinya alat yang bergetar atau berbunyi. Konon sasando digunakan di kalangan masyarakat Rote sejak abad ke-7. Bentuk sasando ada miripnya dengan instrumen petik lainnya seperti gitar, biola dan kecapi. Bagian utama sasando berbentuk tabung panjang yang biasa terbuat dari bambu. Lalu pada bagian tengah, melingkar dari atas ke bawah diberi ganjalan-ganjalan di mana senar-senar (dawai-dawai) yang direntangkan di tabung, dari atas kebawah bertumpu. Ganjalan-ganjalan ini memberikan nada yang berbeda-beda kepada setiap petikan senar. Lalu tabung sasando ini ditaruh dalam sebuah wadah yang terbuat dari semacam anyaman daun lontar yang dibuat seperti kipas. Wadah ini merupakan tempat resonansi sasando.",
+    "howtoplay" : "Alat musik ini dimainkan dengan cara dipetik..",
+    "image" : "sasando.jpg",
+    "location" : "nusa",
+    "melody" : [ "da", "mi", "na", "ti", "la", "da2" ],
+    "name" : "sasando",
+    "story" : "Sejarah alat musik sasando menurut penuturan masyarakat di Pulau Rote diawali seorang pemuda bernama Sangguana. Suatu hari ia pergi menuju padang sabana, karena kelelahan kemudian ia berhenti untuk beristirahat sejenak di bawah pohon lontar. Secara tidak sengaja ia pun tertidur dan bermimpi sedang memainkan sebuah alat musik dari pohon lontar dan berikutnya mimpi tersebut menginspirasinya untuk menciptakan alat musik yang kemudian dikenal sebagai sasando."
+  }]
+}

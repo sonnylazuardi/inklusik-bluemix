@@ -1,0 +1,32 @@
+<ion-view title="LISTEN MUSIC">
+  <ion-content>
+    <div class="stream-title">
+      <h3>{{stream.title}}</h3>
+      <h4>{{stream.name}}</h4>
+      <div class="range range-energized">
+        <input disabled type="range" name="volume" ng-model="percent">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col center">
+        <button ng-click="toggleLike()" class="button button-outline button-balance">
+          <i  ng-show="liked==false" class="icon ion-ios7-heart"></i>
+          <i  ng-show="liked==true" style="color:#ED2626" class="icon ion-ios7-heart"></i>
+        </button>
+      </div>
+      <div class="col center">
+        <button ng-click="togglePlay()" class="button button-outline button-balance">
+          <i  ng-show="isPlaying==false" class="icon ion-ios7-play"></i>
+          <i  ng-show="isPlaying==true" class="icon ion-ios7-pause"></i>
+        </button>
+      </div>
+      <div class="col center"><button class="button button-outline button-balance" ng-click="share()"><i class="icon ion-android-share"></i></button></div>
+    </div>
+    <div ng-repeat="user in users" class="list custom-list">
+      <a class="item item-avatar">
+            <img ng-src="{{user.avatar}}">
+          <h2>{{user.name}}</h2>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

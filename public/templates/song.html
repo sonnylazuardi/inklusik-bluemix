@@ -1,0 +1,18 @@
+<ion-view title="SONG">
+  <ion-content>
+    <div ng-repeat="location in locations">
+      <h2 class="category-title">{{location | uppercase}}</h2>
+      <div class="row unlimited-items">
+        <div class="col browse-card" ng-repeat="partitur in partiturs|filter:{ source: location }">
+            <a style="" href="#/lyric/{{partitur.id}}"><div style="box-shadow: 0px 5px 10px rgba(0,0,0,.1);">
+              <div class="item item-image browse-card-img" style="background: url('img/{{partitur.img}}'); background-size: cover; background-position: center center;">
+              </div>
+              <div class="item item-text-wrap browse-card-txt">
+                <h3><strong>{{partitur.title.toUpperCase()}}</strong></h3>
+              </div>
+            </div></a>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

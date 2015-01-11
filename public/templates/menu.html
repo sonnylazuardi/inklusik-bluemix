@@ -1,0 +1,28 @@
+<ion-content>
+    <div class="item item-avatar profile-preview">
+        <img class="profile-picture" ng-src="{{profile.avatar}}">
+        <h2>{{profile.name}}</h2>
+        <p><a class="link" ng-click="logout()" href menu-close>Logout</a></p>
+    </div>
+<ul class="list side-menu-options">
+<a href="#/browse" class="item" menu-close><i style="padding-left:5px;padding-right:5px" class="icon ion-ios7-musical-note fa-lg"></i>Instrument</a>
+
+<a href="#/song" class="item" menu-close><i class="fa fa-music fa-lg"></i>Song</a>
+
+<a href="#/streamlist" class="item" menu-close><i style="padding-left:5px;padding-right:5px" class="icon ion-ios7-play fa-lg"></i>Stream</a>
+
+<a href="#/help" class="item" menu-close><i class="fa fa-question-circle fa-lg"></i>Help</a>
+
+<a href="#/about" class="item" menu-close><i class="fa fa-info-circle fa-lg"></i>About</a>
+
+<a href ng-click="exit()" class="item" menu-close><i class="fa fa-close fa-lg"></i>Exit</a>
+</ul>
+
+
+
+
+</ion-content>
+
+<div class="bar bar-footer side-menu-footer">
+  <p style="">Copyright &copy; Inklusik Developer Team</p>
+</div>

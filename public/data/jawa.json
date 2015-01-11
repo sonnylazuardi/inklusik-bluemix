@@ -1,0 +1,44 @@
+{
+  "instruments" : [ {
+    "description" : "Bonang merupakan kumpulan dari gong-gong kecil yan terkadang juga disebut dengan nama “pot” atau “ceret”), kesemuanya diletakkan dan disusun berjajar pada bingkai kayu (yang disebut “rancak”) dalam dua baris.  Baris pertama atau baris yang bagian disebut dengan nama Jaleran atau bisa juga disebut dengan  Brunjung, sedangkan baris yang kedua/bawah disebut dengan sebutan setren/dhempok.",
+    "howtoplay" : "Alat musik ini dimainkan dengan cara dipukul",
+    "image" : "bonang.jpg",
+    "location" : "jawa",
+    "melody" : [ "ji", "ro", "lu", "ma", "nem" ],
+    "name" : "bonang",
+    "story" : "Awalnya, alat musik instrumen gamelan dibuat berdasarkan relief yang ada dalam Candi Borobudur pada abad ke-8. Dalam relief di candi tersebut, terdapat beberapa alat musik yang terdiri dari kendang, suling bambu, kecapi, dawai yang digesek dan dipetik, serta lonceng. Sejak itu, alat musik tersebut dijadikan sebagai alat musik dalam alunan musik gamelan jawa. Alat musik yang terdapat di relief Candi Borobudur tersebut digunakan untuk memainkan gamelan. Pada masa pengaruh budaya Hindu-Budha berkembang di Kerajaan Majapahit, gamelan diperkenalkan pada masyarakat Jawa di Kerajaan Majapahit. Konon, menurut kepercayaan orang Jawa, gamelan itu sendiri diciptakan oleh Sang Hyang Guru Era Saka, sebagai dewa yang dulu menguasai seluruh tanah Jawa. Sang dewa inilah yang menciptakan alat musik gong, yang digunakan untuk memanggil para dewa. Alunan musik gamelan jawa di daerah Jawa sendiri disebut karawitan. Karawitan adalah istilah yang digunakan untuk menyebutkan alunan musik gamelan yang halus"
+  },{
+    "description" : "Gender, adalah alat musik yang terdiri dari bilah-bilah metal yang ditegangkan dengan tali. Gender dapat dibedakan menjadi Gender Barung dan gender Panerus. Gender Barung memiliki bilah metal dengan ukuran sedang dalam keluarga Gender. Gender Barung memiliki titi nada satu oktaf lebih rendah dari Gender Panerus. Gender Panerus memiliki bilah-bilah yang paling kecil dalam keluarga Gender. Gender Panerus memiliki titi nada satu oktaf lebih tinggi daripada Gender Barung.",
+    "howtoplay" : "Alat musik ini dimainkan dengan cara dipukul",
+    "image" : "gender.jpg",
+    "location" : "jawa",
+    "melody" : [ "ji", "ro", "lu", "ma", "nem" ],
+    "name" : "gender",
+    "story" : "Awalnya, alat musik instrumen gamelan dibuat berdasarkan relief yang ada dalam Candi Borobudur pada abad ke-8. Dalam relief di candi tersebut, terdapat beberapa alat musik yang terdiri dari kendang, suling bambu, kecapi, dawai yang digesek dan dipetik, serta lonceng. Sejak itu, alat musik tersebut dijadikan sebagai alat musik dalam alunan musik gamelan jawa. Alat musik yang terdapat di relief Candi Borobudur tersebut digunakan untuk memainkan gamelan. Pada masa pengaruh budaya Hindu-Budha berkembang di Kerajaan Majapahit, gamelan diperkenalkan pada masyarakat Jawa di Kerajaan Majapahit. Konon, menurut kepercayaan orang Jawa, gamelan itu sendiri diciptakan oleh Sang Hyang Guru Era Saka, sebagai dewa yang dulu menguasai seluruh tanah Jawa. Sang dewa inilah yang menciptakan alat musik gong, yang digunakan untuk memanggil para dewa. Alunan musik gamelan jawa di daerah Jawa sendiri disebut karawitan. Karawitan adalah istilah yang digunakan untuk menyebutkan alunan musik gamelan yang halus"
+  },{
+    "description" : "Kendang, kendhang, atau gendang adalah instrumen dalam gamelan Jawa Tengah yang salah satu fungsi utamanya mengatur irama. Instrument ini dibunyikan dengan tangan, tanpa alat bantu. Jenis kendang yang kecil disebut ketipung, yang menengah disebut kendang ciblon/kebar. Pasangan ketipung ada satu lagi bernama kendang gedhe biasa disebut kendang kalih. Kendang kalih dimainkan pada lagu atau gendhing yang berkarakter halus seperti ketawang, gendhing kethuk kalih, dan ladrang irama dadi. Bisa juga dimainkan cepat pada pembukaan lagu jenis lancaran ,ladrang irama tanggung. Untuk wayangan ada satu lagi kendhang yang khas yaitu kendhang kosek.",
+    "howtoplay" : "Alat musik ini dimainkan dengan cara ditabuh",
+    "image" : "kendhang.jpg",
+    "location" : "jawa",
+    "melody" : [ "dang", "dlang", "lung", "tak" ],
+    "name" : "kendhang",
+    "story" : "Awalnya, alat musik instrumen gamelan dibuat berdasarkan relief yang ada dalam Candi Borobudur pada abad ke-8. Dalam relief di candi tersebut, terdapat beberapa alat musik yang terdiri dari kendang, suling bambu, kecapi, dawai yang digesek dan dipetik, serta lonceng. Sejak itu, alat musik tersebut dijadikan sebagai alat musik dalam alunan musik gamelan jawa. Alat musik yang terdapat di relief Candi Borobudur tersebut digunakan untuk memainkan gamelan. Pada masa pengaruh budaya Hindu-Budha berkembang di Kerajaan Majapahit, gamelan diperkenalkan pada masyarakat Jawa di Kerajaan Majapahit. Konon, menurut kepercayaan orang Jawa, gamelan itu sendiri diciptakan oleh Sang Hyang Guru Era Saka, sebagai dewa yang dulu menguasai seluruh tanah Jawa. Sang dewa inilah yang menciptakan alat musik gong, yang digunakan untuk memanggil para dewa. Alunan musik gamelan jawa di daerah Jawa sendiri disebut karawitan. Karawitan adalah istilah yang digunakan untuk menyebutkan alunan musik gamelan yang halus"
+  },{
+    "description" : "Alat ini berukuran sedang dan beroktaf tinggi. Seperti demung,  Saron memainkan balungan dalam wilayahnya yang terbatas. Pada teknik tabuhan imbal-imbalan, dua saron memainkan lagu jalin menjalin yang bertempo cepat. Seperangkat gamelan mempunyai dua Saron, tetapi ada gamelan yang mempunyai lebih dari dua saron.",
+    "howtoplay" : "Alat musik ini dimainkan dengan cara dipukul",
+    "image" : "saronpanembung.jpg",
+    "location" : "jawa",
+    "melody" : [ "ji", "ro", "lu", "ma", "nem" ],
+    "name" : "saronpanembung",
+    "story" : "Awalnya, alat musik instrumen gamelan dibuat berdasarkan relief yang ada dalam Candi Borobudur pada abad ke-8. Dalam relief di candi tersebut, terdapat beberapa alat musik yang terdiri dari kendang, suling bambu, kecapi, dawai yang digesek dan dipetik, serta lonceng. Sejak itu, alat musik tersebut dijadikan sebagai alat musik dalam alunan musik gamelan jawa. Alat musik yang terdapat di relief Candi Borobudur tersebut digunakan untuk memainkan gamelan. Pada masa pengaruh budaya Hindu-Budha berkembang di Kerajaan Majapahit, gamelan diperkenalkan pada masyarakat Jawa di Kerajaan Majapahit. Konon, menurut kepercayaan orang Jawa, gamelan itu sendiri diciptakan oleh Sang Hyang Guru Era Saka, sebagai dewa yang dulu menguasai seluruh tanah Jawa. Sang dewa inilah yang menciptakan alat musik gong, yang digunakan untuk memanggil para dewa. Alunan musik gamelan jawa di daerah Jawa sendiri disebut karawitan. Karawitan adalah istilah yang digunakan untuk menyebutkan alunan musik gamelan yang halus"
+  },{
+    "description" : "Alat ini seperti saron biasa, namun Pemukul saron panerus lebih kecil dengan ujung lainnya yang lancip, sedangkan dua lainnya memiliki alat pemukul yang besar. Cara memainkannya pun berbeda.",
+    "howtoplay" : "Alat musik ini dimainkan dengan cara dipukul",
+    "image" : "saronpanerus.jpg",
+    "location" : "jawa",
+    "melody" : [ "ji", "ro", "lu", "ma", "nem" ],
+    "name" : "saronpanerus",
+    "story" : "Awalnya, alat musik instrumen gamelan dibuat berdasarkan relief yang ada dalam Candi Borobudur pada abad ke-8. Dalam relief di candi tersebut, terdapat beberapa alat musik yang terdiri dari kendang, suling bambu, kecapi, dawai yang digesek dan dipetik, serta lonceng. Sejak itu, alat musik tersebut dijadikan sebagai alat musik dalam alunan musik gamelan jawa. Alat musik yang terdapat di relief Candi Borobudur tersebut digunakan untuk memainkan gamelan. Pada masa pengaruh budaya Hindu-Budha berkembang di Kerajaan Majapahit, gamelan diperkenalkan pada masyarakat Jawa di Kerajaan Majapahit. Konon, menurut kepercayaan orang Jawa, gamelan itu sendiri diciptakan oleh Sang Hyang Guru Era Saka, sebagai dewa yang dulu menguasai seluruh tanah Jawa. Sang dewa inilah yang menciptakan alat musik gong, yang digunakan untuk memanggil para dewa. Alunan musik gamelan jawa di daerah Jawa sendiri disebut karawitan. Karawitan adalah istilah yang digunakan untuk menyebutkan alunan musik gamelan yang halus"
+  }
+]
+}

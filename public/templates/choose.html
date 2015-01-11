@@ -1,0 +1,25 @@
+<ion-view title="Music">
+  <ion-content>
+	<div class="list list-inset">
+	  <label class="item item-input">
+	    <i class="icon ion-search placeholder-icon"></i>
+	    <input type="text" placeholder="Search" ng-model="search">
+	  </label>
+	</div>
+  
+  <div class="row unlimited-items-search">
+    <div class="col browse-card" ng-repeat="instrument in instruments|filter:search">
+      <a style="" href="#/detail/{{instrument.name}}"><div style="box-shadow: 0px 5px 10px rgba(0,0,0,.1);">
+        <div class="item item-image browse-card-img" style="background: url('img/{{instrument.imagecover}}'); background-size: cover; background-position: center center;">
+          <div class="icon-music" style="background: url('img/{{instrument.image}}'); background-size: contain; background-repeat: no-repeat; background-position: center center; background-color: #fff; ">
+          </div>
+        </div>
+        <div class="item item-text-wrap browse-card-txt">
+          <h3><strong>{{instrument.name.toUpperCase()}}</strong></h3>
+          <p>{{instrument.description|htmlToPlaintext|cut}}...</p>
+        </div>
+      </div></a>
+    </div>
+  </div>
+  </ion-content>
+</ion-view>
